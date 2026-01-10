@@ -88,13 +88,13 @@ export function Hero() {
             transition={{ delay: 1.8, duration: 0.8 }}
             className="flex justify-center space-x-4 mt-8"
           >
-            <Button asChild variant="default" size="lg" className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
+            <Button asChild variant="default" size="lg" className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 hover:from-blue-500 hover:via-purple-600 hover:to-pink-500 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
               <a href="/cv/Kashif_Alam_CV.pdf" download>
                 <Download className="w-5 h-5 mr-2" />
                 Download CV
               </a>
             </Button>
-            <Button asChild variant="default" size="lg" className="bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
+            <Button asChild variant="default" size="lg" className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 hover:from-blue-500 hover:via-purple-600 hover:to-pink-500 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
               <a href="/resume/kashif_alam_resume.pdf" download>
                 <Download className="w-5 h-5 mr-2" />
                 Download Resume
