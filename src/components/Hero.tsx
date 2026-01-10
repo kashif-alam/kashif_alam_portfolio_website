@@ -39,14 +39,6 @@ export function Hero() {
               </motion.span>
             ))}
           </h1>
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.5, duration: 0.8 }}
-            className="text-3xl md:text-5xl font-bold text-white mb-6"
-          >
-            Welcome to My Portfolio
-          </motion.div>
         </motion.div>
 
         <motion.p
