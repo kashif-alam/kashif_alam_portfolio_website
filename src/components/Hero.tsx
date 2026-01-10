@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Brain, Cpu, Zap } from 'lucide-react';
+import { Brain, Cpu, Zap, Download } from 'lucide-react';
 import { Button } from './ui/button';
 
 export function Hero() {
@@ -88,13 +88,15 @@ export function Hero() {
             transition={{ delay: 1.8, duration: 0.8 }}
             className="flex justify-center space-x-4 mt-8"
           >
-            <Button asChild variant="outline" size="lg">
+            <Button asChild variant="default" size="lg" className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
               <a href="/cv/Kashif_Alam_CV.pdf" download>
+                <Download className="w-5 h-5 mr-2" />
                 Download CV
               </a>
             </Button>
-            <Button asChild variant="outline" size="lg">
+            <Button asChild variant="default" size="lg" className="bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
               <a href="/resume/kashif_alam_resume.pdf" download>
+                <Download className="w-5 h-5 mr-2" />
                 Download Resume
               </a>
             </Button>
