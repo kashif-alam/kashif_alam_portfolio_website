@@ -5,6 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
+    publicDir: 'public',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
@@ -53,6 +54,7 @@
     build: {
       target: 'esnext',
       outDir: 'build',
+      copyPublicDir: true,
     },
     server: {
       port: 3000,
