@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://kashifalam.engineer/sitemap.xml

@@ -1,5 +1,18 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "build",
-  "installCommand": "npm install"
+  "installCommand": "npm install",
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "kashif-alam-portfolio-website.vercel.app"
+        }
+      ],
+      "destination": "https://kashifalam.engineer/$1",
+      "permanent": true
+    }
+  ]
 }
