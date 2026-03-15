@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="KA">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f172a" />
-      <stop offset="1" stop-color="#0b3b2e" />
+      <stop offset="0" stop-color="#0b1220" />
+      <stop offset="1" stop-color="#0f3b2e" />
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="14" fill="url(#g)" />
-  <rect x="6" y="6" width="52" height="52" rx="12" fill="none" stroke="#22c55e" stroke-width="2" />
-  <text x="32" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#e2e8f0">KA</text>
+  <circle cx="32" cy="32" r="30" fill="url(#g)" />
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#22c55e" stroke-width="2" />
+  <text x="32" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#e2e8f0">KA</text>
 </svg>
